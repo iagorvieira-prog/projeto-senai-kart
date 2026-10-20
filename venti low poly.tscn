@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cj4iv4nsebafa"]
+
+[ext_resource type="PackedScene" uid="uid://cjleeklsjuvc4" path="res://tripo_model_2c59fbe5-42f1-4254-aac7-f256fcaf58e3_meshopt-v2.glb" id="1_nwplb"]
+
+[node name="Node3D" type="Node3D" unique_id=1395703049]
+
+[node name="tripo_model_2c59fbe5-42f1-4254-aac7-f256fcaf58e3_meshopt-v2" parent="." unique_id=1244889407 instance=ExtResource("1_nwplb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0038090944)
