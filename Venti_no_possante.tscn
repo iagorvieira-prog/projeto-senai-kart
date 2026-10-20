@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cbodjorpcioby"]
+
+[ext_resource type="PackedScene" uid="uid://wpp3pa7hvnk7" path="res://tripo_pbr_model_8_dd_15_eab_a_7b_0_46_ba_a_170_1e_605_fcfb_307_meshopt_v_1_v_1.tscn" id="1_3mr61"]
+
+[node name="Node3D" type="Node3D" unique_id=279146320]
+
+[node name="tripo_pbr_model_8dd15eab-a7b0-46ba-a170-1e605fcfb307_meshopt-v1-v1" parent="." unique_id=1294936181 instance=ExtResource("1_3mr61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="tripo_node_8dd15eab-a7b0-46ba-a170-1e605fcfb307" parent="tripo_pbr_model_8dd15eab-a7b0-46ba-a170-1e605fcfb307_meshopt-v1-v1" index="0" unique_id=1529906095]
+transform = Transform3D(-0.638577, -0.048865553, 0.7680049, -0.012260998, 0.9985014, 0.053336553, -0.7694603, 0.02464299, -0.63821924, 0.17819238, 0.007678777, 0.4462006)
+
+[editable path="tripo_pbr_model_8dd15eab-a7b0-46ba-a170-1e605fcfb307_meshopt-v1-v1"]
