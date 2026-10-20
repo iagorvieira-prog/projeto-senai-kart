@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://wpp3pa7hvnk7"]
-
-[ext_resource type="PackedScene" uid="uid://xpl54r0e1c2x" path="res://tripo_pbr_model_8dd15eab-a7b0-46ba-a170-1e605fcfb307_meshopt-v1-v1.glb" id="1_yfu4f"]
-
-[node name="tripo_pbr_model_8dd15eab-a7b0-46ba-a170-1e605fcfb307_meshopt-v1-v1" unique_id=1294936181 instance=ExtResource("1_yfu4f")]
