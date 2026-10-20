@@ -1,5 +1,15 @@
 [gd_scene format=3 uid="uid://b78m7meqd0mfu"]
 
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_wnd2d"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wnd2d"]
+
 [node name="Node3D" type="Node3D" unique_id=1099180276]
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=23525640]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=162404731]
+mesh = SubResource("CapsuleMesh_wnd2d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=10485954]
+shape = SubResource("CapsuleShape3D_wnd2d")
